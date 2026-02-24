@@ -1,0 +1,74 @@
+{
+  "version": "2.2 (stabilizzata 2026-01-02)",
+  "build": "2026-02-20",
+  "kpi": [
+    {
+      "label": "Intensità applicativa",
+      "value": "Essenziale · Standard · Rafforzata"
+    },
+    {
+      "label": "Versionamento nativo",
+      "value": "no overwrite · storico · changelog"
+    },
+    {
+      "label": "Audit e difendibilità",
+      "value": "log · controlli pre-firma · tracciabilità"
+    }
+  ],
+  "patch": [
+    {
+      "date": "2026-02-17",
+      "tag": "Patch",
+      "title": "Aggiornamenti Home + struttura pubblica/riservata",
+      "desc": "Allineamento navigazione e predisposizione download PDF."
+    },
+    {
+      "date": "2026-02-01",
+      "tag": "Metodo",
+      "title": "Consolidamento Regole Operative Permanenti",
+      "desc": "FASE 0, M07-LPR, CS-PPAV, SCM-PRO: standardizzati."
+    },
+    {
+      "date": "2026-01-02",
+      "tag": "Governance",
+      "title": "Blocco unico Modalità & Autoswitch + RAC opponibile",
+      "desc": "Regole di ingresso e tracciabilità rafforzate."
+    }
+  ],
+  "downloads": [
+    {
+      "label": "Regole Madre (PDF)",
+      "href": "download/RM_Regole_Madre_PPAV_2_2.pdf"
+    },
+    {
+      "label": "Regole Operative (PDF)",
+      "href": "download/ROP_Regole_Operative_Permanenti_PPAV_2_2.pdf"
+    }
+  ],
+  "homeCta": [
+    {
+      "label": "📘 Come funziona",
+      "href": "metodo.html"
+    },
+    {
+      "label": "🧩 Modelli ufficiali",
+      "href": "modelli.html"
+    },
+    {
+      "label": "📑 RAC (Report Applicativi)",
+      "href": "rac.html"
+    },
+    {
+      "label": "🧾 Patch / Changelog",
+      "href": "patch.html"
+    }
+  ],
+  "title": "Metodo Cerda – PPAV 2.2",
+  "tagline": "Architettura per enti locali · tracciabilità · controlli pre-firma",
+  "status": "STABILE",
+  "app": {
+    "label": "🧪 App (beta)",
+    "href": "app/index.html",
+    "note": "Area operativa sperimentale: strumenti e output. Parte pubblica invariata."
+  }
+}
