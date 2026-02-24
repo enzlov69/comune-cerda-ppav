@@ -1,0 +1,548 @@
+{
+  "documento": "STATUTO COMUNALE",
+  "ente": "Comune di Cerda",
+  "provincia": "Palermo",
+  "citta_metropolitana": "Palermo",
+  "delibere_approvazione": [
+    {"n": 5, "data": "02.02.1995", "gurs": "suppl. straord. n.60 del 18.11.1995"},
+    {"n": 20, "data": "16.05.1995", "note": "Modifica"},
+    {"n": 22, "data": "15.09.2004", "gurs": "suppl. straord. n.54 del 17.12.2004"},
+    {"n": 3, "data": "13.01.2006", "gurs": "suppl. straord. n.19 del 14.04.2006"},
+    {"n": 25, "data": "11.04.2018", "gurs": "parte I n.21 del 11.05.2018"}
+  ],
+  "ultima_modifica": "11.04.2018",
+  "versione_ppav": "1.0",
+  "data_elaborazione": "2026-02-24",
+  "aan_verifica": {
+    "fonte_verificata": true,
+    "fonte_ufficiale": "GURS parte I n.21 del 11.05.2018",
+    "stato_vigenza": "VIGENTE",
+    "note_vigenza": "Ultima modifica con Del. CC n.25/2018 - verificare eventuali modifiche successive"
+  },
+
+  "identita_ente": {
+    "superficie_ha": 4382,
+    "confini": ["Sciara", "Termini Imerese", "Collesano", "Scillato", "Sclafani Bagni", "Aliminusa"],
+    "sede_sindaco_giunta": "Palazzo Civico, Piazza La Mantia",
+    "sede_consiglio": "Via Roma n.133",
+    "stemma_approvato": "D.P.R. 18 Aprile 2011",
+    "classe_demografica": "Piccolo Comune (verificare popolazione attuale)",
+    "organi": ["Consiglio Comunale", "Giunta Comunale", "Sindaco"],
+    "direttore_generale": "SOPPRESSO (art.2 co.186 lett.d L.191/2009)",
+    "difensore_civico": "SOPPRESSO (art.5 L.R. n.7/2011)"
+  },
+
+  "articoli": [
+    {
+      "numero": "1", "titolo": "Ente di autogoverno",
+      "ppav": {
+        "tag": ["VINCOLO"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "note_ppav": "Norma di principio - nessun impatto operativo diretto",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "BASSA"}
+      }
+    },
+    {
+      "numero": "2", "titolo": "Territorio del Comune",
+      "ppav": {
+        "tag": ["VINCOLO"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "note_ppav": "Dato anagrafico ente: superficie 4.382 Ha",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "BASSA"}
+      }
+    },
+    {
+      "numero": "5", "titolo": "Autonomia statutaria",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01", "M05"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": ["Statuto adottato nel rispetto dei principi di legge", "Ispirato alla Carta Europea Autonomia Locale"],
+        "note_ppav": "Base giuridica dello Statuto - fondamento FASE 0-ter",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "BASSA"}
+      }
+    },
+    {
+      "numero": "7", "titolo": "Potestà regolamentare",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01", "M05"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": ["Esercizio subordinato a pareri e forme di consultazione popolare"],
+        "condizioni": ["Rispetto modalità Regolamento CC", "Rispetto Regolamento istituti di partecipazione"],
+        "note_ppav": "RILEVANTE per M05 - ogni regolamento comunale trova qui la base",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "8", "titolo": "Potestà sanzionatoria",
+      "ppav": {
+        "tag": ["ABILITAZIONE"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": true, "responsabile_servizio": true},
+        "abilitazioni": ["Comuni possono prevedere sanzioni amministrative con regolamenti comunali e ordinanze Sindaco/Dirigenti"],
+        "note_ppav": "Base per ordinanze e sanzioni amministrative",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "BASSA"}
+      }
+    },
+    {
+      "numero": "13bis", "titolo": "Consiglio Comunale",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": ["Organo di indirizzo e controllo politico-amministrativo", "Elezione Presidente: 1a votazione maggioranza assoluta; 2a maggioranza semplice"],
+        "note_ppav": "Definizione istituzionale CC - rilevante FIP-IND",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "17", "titolo": "Competenza del Consiglio comunale",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01", "M05"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": [
+          "Dura in carica 5 anni",
+          "Sedute pubbliche (salvo Regolamento)",
+          "Atti fondamentali devono indicare obiettivi, finalità, risorse"
+        ],
+        "competenze_esclusive_cc": [
+          "Statuto, regolamenti, criteri generali regolamento uffici e servizi (co.7a)",
+          "Bilanci annuali e pluriennali, variazioni, conti consuntivi (co.7b)",
+          "Relazioni previsionali, piani finanziari, opere pubbliche (co.7b)",
+          "Piani territoriali e urbanistici (co.7b)",
+          "Convenzioni tra comuni, forme associative (co.7c)",
+          "Organismi di decentramento e partecipazione (co.7d)",
+          "Assunzione servizi pubblici, aziende speciali, concessioni (co.7e)",
+          "Istituzione tributi, disciplina tariffe (co.7f)",
+          "Indirizzi aziende pubbliche ed enti dipendenti (co.7g)",
+          "Contrazione aperture di credito non previste da atti CC (co.7h)",
+          "Spese che impegnano bilanci esercizi successivi (escluse somministrazioni continuative) (co.7i)",
+          "Acquisti e alienazioni immobiliari, permute, appalti, concessioni non in atti CC e non ordinaria amministrazione (co.7n)",
+          "Elezione Collegio Revisori dei Conti (co.7o)"
+        ],
+        "note_ppav": "CRITICO per FIP-IND e M01 - matrice competenze CC",
+        "rischio": "ALTO",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA", "note": "Incide su tutte le funzioni delegate e sui procedimenti"}
+      }
+    },
+    {
+      "numero": "18", "titolo": "Convocazione e funzionamento del Consiglio comunale",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": [
+          "Avviso scritto almeno 3 giorni prima (24h in urgenza)",
+          "Riunione minima 2 volte/anno (consuntivo + bilancio previsione)",
+          "Quorum costitutivo: almeno 1/3 consiglieri assegnati",
+          "Quorum deliberativo: metà più uno consiglieri assegnati",
+          "Delibera valida con maggioranza assoluta votanti",
+          "Convocazione entro 20 giorni su richiesta 2/5 consiglieri o Sindaco"
+        ],
+        "note_ppav": "Rilevante per verifica validità deliberazioni CC",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "26", "titolo": "Nomina e composizione della Giunta",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01", "M04"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": true, "responsabile_servizio": false},
+        "vincoli": [
+          "Giunta composta da Sindaco + 4 Assessori",
+          "Nomina assessori: Sindaco",
+          "Presenza paritaria generi (almeno 1 componente genere diverso)",
+          "Consiglieri in GC: max metà componenti GC",
+          "Vietata nomina coniuge, ascendenti, discendenti, parenti/affini fino 2° grado Sindaco e Consiglieri"
+        ],
+        "note_ppav": "Rilevante per delibere GC e verifica composizione",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "BASSA"}
+      }
+    },
+    {
+      "numero": "29", "titolo": "Competenze della Giunta",
+      "ppav": {
+        "tag": ["VINCOLO", "ABILITAZIONE", "CONDIZIONE"], "moduli_attivati": ["M01", "M04", "M05"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": true, "sindaco": false, "responsabile_servizio": false},
+        "competenze_giunta": [
+          "Atti di indirizzo su acquisti, alienazioni, permute immobiliari non preceduti da atti programmazione (co.3a)",
+          "Concessione beni in locazione/comodato/diritti reali su immobili comunali durata <= 9 anni (co.3b)",
+          "Accettazione/rifiuto lasciti, donazioni, servitù (co.3d)",
+          "Contributi, indennità, compensi, rimborsi, esenzioni ad amministratori, dipendenti, terzi (co.3e)",
+          "Atti generali personale non competenza gestionale dirigenti (co.3f)",
+          "Conferimento incarichi legali esterni (co.3g)",
+          "Autorizzazione Sindaco a stare in giudizio; approvazione transazioni (co.3h)",
+          "Piano Esecutivo di Gestione (co.3i)",
+          "Regolamento uffici e servizi e dotazione organica (co.3j)",
+          "Programma triennale fabbisogno personale (co.3k)",
+          "Recepimento contratti lavoro e contratti decentrati (co.3l)",
+          "Provvedimenti concorsi e assunzioni non riservati ad altri organi (co.3m)",
+          "Schemi bilancio, relazione programmatica, programma triennale OO.PP. (co.3n)",
+          "Approvazione progetti lavori pubblici e istanze finanziamento (co.3o)",
+          "Mostre, spettacoli, manifestazioni, convegni non previsti in PEG (co.3p)"
+        ],
+        "note_ppav": "CRITICO per FIP-IND - matrice competenze GC vs Responsabile Servizio",
+        "rischio": "ALTO",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "30", "titolo": "Funzionamento della Giunta",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": true, "sindaco": true, "responsabile_servizio": false},
+        "vincoli": [
+          "Convocazione: Sindaco o su richiesta 1/3 Assessori",
+          "Sedute non pubbliche (salvo diversa decisione)",
+          "Quorum: presenza maggioranza componenti",
+          "Delibera: voto favorevole maggioranza presenti (parità: prevale voto Sindaco)",
+          "Partecipa Segretario Comunale (o Vice in sua assenza)"
+        ],
+        "note_ppav": "Rilevante per verifica validità deliberazioni GC",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "32", "titolo": "Il Sindaco",
+      "ppav": {
+        "tag": ["VINCOLO", "ABILITAZIONE"], "moduli_attivati": ["M01", "M04"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": true, "responsabile_servizio": false},
+        "competenze_sindaco": [
+          "Rappresentanza legale del Comune",
+          "Convoca e presiede la Giunta",
+          "Sovrintende funzionamento servizi e uffici",
+          "Nomina componenti Giunta e Vice-Sindaco (co.3)",
+          "Nomina, designazione e revoca rappresentanti Comune (co.4) - entro 45 gg insediamento",
+          "Conferisce incarichi dirigenziali a tempo determinato (co.6)",
+          "Può concedere deleghe agli Assessori (co.7)",
+          "Ordinanze contingibili e urgenti (co.9a)",
+          "Rappresentanza in giudizio (co.9b - esclusi tributi e lavoro)",
+          "Sovraintende funzioni statali e regionali delegate (co.9c)",
+          "Coordina orari esercizi commerciali (co.9d)",
+          "Indice referendum consultivo e istruttoria pubblica (co.9e)"
+        ],
+        "vincoli": [
+          "In caso di assenza: sostituito da Vice-Sindaco, poi Assessore anziano",
+          "Vietato ricoprire incarichi presso enti dipendenti/vigilati dal Comune"
+        ],
+        "note_ppav": "CRITICO per FIP-IND - poteri Sindaco vs Responsabile Servizio",
+        "rischio": "ALTO",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "52", "titolo": "Segretario",
+      "ppav": {
+        "tag": ["VINCOLO", "ABILITAZIONE"], "moduli_attivati": ["M01", "M04"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "competenze_segretario": [
+          "Collabora e assiste organi ente per aspetti giuridico-amministrativi (co.1a)",
+          "Partecipa a GC e CC con funzioni consultive, referenti e assistenza; verbalizza (co.1b)",
+          "Può rogare contratti in cui Comune è parte; autentica scritture private (co.1c)",
+          "Sovrintende funzioni Responsabili e coordina attività (salvo nomina DG) (co.2)",
+          "Dipende funzionalmente dal Sindaco (co.3)",
+          "Può ricevere funzioni Direttore Generale dal Sindaco (co.4)"
+        ],
+        "note_ppav": "Rilevante per pareri e contratti - ruolo istruttorio qualificato",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "55", "titolo": "Responsabili delle Aree F.F. Dirigenziali",
+      "ppav": {
+        "tag": ["VINCOLO", "ABILITAZIONE", "CONDIZIONE"], "moduli_attivati": ["M01", "M04"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": true},
+        "vincoli": [
+          "Non prevista qualifica dirigenziale in organico",
+          "Funzioni ex art.107 co.2 e co.3 TUEL attribuite con provvedimento motivato Sindaco",
+          "Incarichi a tempo determinato",
+          "Revoca: inosservanza direttive, mancato raggiungimento obiettivi, responsabilità grave"
+        ],
+        "competenze_responsabile_servizio": [
+          "Direzione e gestione amministrativa strutture (Aree) (co.3)",
+          "Stipulazione contratti per settore competente (co.5)",
+          "Rappresentanza Comune in giudizi tributi locali (FF Trib.) e lavoro (FF Pers.) (co.6)",
+          "Certificazioni, attestazioni, autorizzazioni, concessioni, pareri tecnici (co.7)",
+          "Responsabilità procedimento amministrativo (co.7)",
+          "Ordinanze normali/ordinarie e per osservanza leggi/regolamenti comunali (co.8)",
+          "Rappresentanza in commissioni tecniche (co.9)"
+        ],
+        "note_ppav": "FONDAMENTALE per M01 e FIP-IND - base giuridica poteri Responsabile Servizio",
+        "rischio": "ALTO",
+        "riferimento_tuel": "art.107 co.2 e co.3 D.Lgs.267/2000",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": true, "blocco_c": false, "blocco_d": true, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "56", "titolo": "Responsabilità dei F.F. Dirigenziali",
+      "ppav": {
+        "tag": ["VINCOLO"], "moduli_attivati": ["M01", "M04"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": false, "giunta_comunale": false, "sindaco": true, "responsabile_servizio": true},
+        "vincoli": [
+          "Responsabile diretto per correttezza amministrativa ed efficienza gestione",
+          "Criteri valutazione risultati: Regolamento Uffici e Servizi",
+          "Contestazione in contraddittorio da parte Sindaco"
+        ],
+        "note_ppav": "Rilevante per profili di responsabilità dirigenziale",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": true, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "74", "titolo": "Finanza locale",
+      "ppav": {
+        "tag": ["VINCOLO", "ABILITAZIONE"], "moduli_attivati": ["M02", "M05"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": ["Autonomia finanziaria nel rispetto coordinamento finanza pubblica", "Principi equità, perequazione, progressività"],
+        "note_ppav": "Base autonomia finanziaria - ancoraggio M02",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "75", "titolo": "Bilancio di previsione",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M02"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": true, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": [
+          "Esercizio finanziario = anno solare",
+          "Schema bilancio predisposto dalla Giunta",
+          "Consegnato ai Capigruppo e depositato in Segreteria almeno 10 gg prima",
+          "Quorum approvazione CC: almeno metà membri (anche in 2a convocazione)",
+          "Principi: universalità, integrità, pareggio economico e finanziario"
+        ],
+        "note_ppav": "Rilevante M02 - iter approvazione bilancio",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "76", "titolo": "Ordinamento contabile",
+      "ppav": {
+        "tag": ["RINVIO"], "moduli_attivati": ["M02"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "rinvii": {"interni": [], "esterni": ["Regolamento comunale di contabilità", "Legge ordinamento contabile"]},
+        "note_ppav": "Rinvio al Regolamento Contabilità - FASE 0-ter attiva REG_CONTABILITA_CERDA",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "77", "titolo": "Gestione del bilancio",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M02", "M04"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": true,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": true, "sindaco": false, "responsabile_servizio": true},
+        "vincoli": [
+          "PEG approvato dalla Giunta su base bilancio CC",
+          "FF Dirigenziali adottano atti di gestione conseguenti al PEG",
+          "Atti di gestione = DETERMINAZIONI DIRIGENZIALI",
+          "Relazione semestrale Giunta al CC su stato attuazione"
+        ],
+        "note_ppav": "CRITICO - Determina che le determine dei FF Dirigenziali sono gli atti di gestione del PEG",
+        "rischio": "ALTO",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": true, "blocco_c": false, "blocco_d": true, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "79", "titolo": "Contributi, sovvenzioni",
+      "ppav": {
+        "tag": ["VINCOLO", "RINVIO"], "moduli_attivati": ["M02", "M06"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "vincoli": ["Disciplina: Regolamento di accesso ai contributi economici"],
+        "note_ppav": "Rinvio a Regolamento contributi - rilevante per benefici economici",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "81", "titolo": "Contratti",
+      "ppav": {
+        "tag": ["VINCOLO", "RINVIO"], "moduli_attivati": ["M03"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "vincoli": [
+          "Contratti stipulati da soggetti legittimati da legge e regolamenti",
+          "Procedure, forme, tipi: legge e Regolamento contratti",
+          "Attività contrattuale su base programmazione e bilancio",
+          "Criteri: economicità, trasparenza, efficacia"
+        ],
+        "rinvii": {"interni": [], "esterni": ["Regolamento di disciplina dei contratti"]},
+        "note_ppav": "Rinvio a Regolamento Contratti - FASE 0-ter attiva REG_CONTRATTI_CERDA",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "82", "titolo": "Collegio dei revisori dei conti",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M02"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "organo_competente": {"consiglio_comunale": true, "giunta_comunale": false, "sindaco": false, "responsabile_servizio": false},
+        "vincoli": [
+          "Funzioni previste dalla legge",
+          "Collabora con CC per indirizzo e controllo",
+          "Vigila su regolarità contabile e finanziaria",
+          "Sorteggio tra iscritti registro revisori legali D.Lgs. 39/2010",
+          "Elezione: art.10 L.R. n.3/2016 s.m.i."
+        ],
+        "note_ppav": "Rilevante per parere di regolarità contabile su deliberazioni CC (art.49 TUEL)",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": true, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "MEDIA"}
+      }
+    },
+    {
+      "numero": "86", "titolo": "Pubblicazione ed esecutività deliberazioni e determinazioni",
+      "ppav": {
+        "tag": ["VINCOLO"], "moduli_attivati": ["M06"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "vincoli": [
+          "Pubblicità e esecutività: disciplinate dalla legge",
+          "Obblighi di pubblicità legale assolti con pubblicazione Albo Pretorio online"
+        ],
+        "note_ppav": "Rilevante M06 - trasparenza e pubblicazione atti",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "87", "titolo": "Pareri obbligatori",
+      "ppav": {
+        "tag": ["VINCOLO", "CONDIZIONE"], "moduli_attivati": ["M01"],
+        "fase0ter_trigger": false, "fip_ind_rilevante": false,
+        "vincoli": ["Termini formulazione pareri: previsti dalla legge (art.49 TUEL)"],
+        "note_ppav": "Conferma obbligo pareri ex art.49 TUEL per deliberazioni",
+        "micro_scheda_opel": {"blocco_a": false, "blocco_b": false, "blocco_c": false, "blocco_d": false, "blocco_e": false, "priorita": "ALTA"}
+      }
+    },
+    {
+      "numero": "88", "titolo": "Controlli interni",
+      "ppav": {
+        "tag": ["VINCOLO", "RINVIO"], "moduli_attivati": ["M01", "M06"],
+        "fase0ter_trigger": true, "fip_ind_rilevante": false,
+        "vincoli": ["Disciplinati dal Regolamento Comunale controlli interni - Del. CC n.19/2015"],
+        "rinvii": {"interni": [], "esterni": ["D.L. 174/2012 conv. L.213/2012", "Regolamento controlli interni Del.CC 19/25.05.2015"]},
+        "note_ppav": "Rilevante per sistema controlli - verificare Regolamento controlli interni",
+        "micro_scheda_opel": {"blocco_a": true, "blocco_b": false, "blocco_c": false, "blocco_d": true, "blocco_e": false, "priorita": "ALTA"}
+      }
+    }
+  ],
+
+  "indice_competenze": {
+    "consiglio_comunale": [
+      "art.17 co.7a - Statuto, regolamenti, criteri generali reg.uffici",
+      "art.17 co.7b - Bilanci, variazioni, consuntivi, piani territoriali",
+      "art.17 co.7c - Convenzioni intercomunali, forme associative",
+      "art.17 co.7d - Organismi decentramento e partecipazione",
+      "art.17 co.7e - Servizi pubblici, aziende speciali, concessioni",
+      "art.17 co.7f - Tributi e tariffe",
+      "art.17 co.7g - Indirizzi enti dipendenti",
+      "art.17 co.7h - Aperture di credito non previste da atti CC",
+      "art.17 co.7i - Spese pluriennali (escluse somministrazioni continuative)",
+      "art.17 co.7n - Acquisti/alienazioni immobiliari, appalti non in atti CC",
+      "art.17 co.7o - Elezione Collegio Revisori dei Conti",
+      "art.75 - Approvazione bilancio di previsione"
+    ],
+    "giunta_comunale": [
+      "art.29 co.3a - Indirizzi acquisti/alienazioni/permute immobiliari (non programmati)",
+      "art.29 co.3b - Locazione/comodato immobili comunali <= 9 anni",
+      "art.29 co.3d - Accettazione lasciti, donazioni, servitù",
+      "art.29 co.3e - Contributi, indennità, compensi, rimborsi ad amministratori/dipendenti/terzi",
+      "art.29 co.3f - Atti generali personale (non gestione)",
+      "art.29 co.3g - Incarichi legali esterni",
+      "art.29 co.3h - Autorizzazione Sindaco in giudizio; transazioni",
+      "art.29 co.3i - Piano Esecutivo di Gestione (PEG)",
+      "art.29 co.3j - Regolamento uffici e servizi; dotazione organica",
+      "art.29 co.3k - Programma triennale fabbisogno personale",
+      "art.29 co.3l - Recepimento CCNL e contratti decentrati",
+      "art.29 co.3m - Provvedimenti concorsi e assunzioni",
+      "art.29 co.3n - Schemi bilancio, relazione programmatica, programma OO.PP.",
+      "art.29 co.3o - Approvazione progetti lavori pubblici e istanze finanziamento",
+      "art.29 co.3p - Manifestazioni, convegni non previsti in PEG"
+    ],
+    "sindaco": [
+      "art.32 co.2 - Rappresentanza legale Comune",
+      "art.32 co.3 - Nomina Giunta e Vice-Sindaco",
+      "art.32 co.4 - Nomina/revoca rappresentanti Comune presso enti",
+      "art.32 co.6 - Conferimento incarichi dirigenziali a tempo determinato",
+      "art.32 co.9a - Ordinanze contingibili e urgenti",
+      "art.32 co.9b - Rappresentanza in giudizio (esclusi tributi e lavoro)",
+      "art.32 co.9e - Indizione referendum e istruttoria pubblica",
+      "art.55 co.1 - Attribuzione funzioni FF Dirigenziali con provvedimento motivato"
+    ],
+    "responsabile_servizio": [
+      "art.55 co.3 - Direzione e gestione amministrativa Aree",
+      "art.55 co.5 - Stipulazione contratti per settore competente",
+      "art.55 co.6 - Rappresentanza in giudizi tributi (FF Trib.) e lavoro (FF Pers.)",
+      "art.55 co.7 - Certificazioni, attestazioni, autorizzazioni, concessioni, pareri tecnici",
+      "art.55 co.7 - Responsabilità procedimento amministrativo",
+      "art.55 co.8 - Ordinanze normali e ordinarie",
+      "art.55 co.9 - Rappresentanza in commissioni tecniche",
+      "art.77 co.3 - Adozione atti di gestione conseguenti al PEG",
+      "art.77 co.4 - Determinazioni dirigenziali"
+    ],
+    "segretario_comunale": [
+      "art.52 co.1a - Assistenza giuridico-amministrativa organi ente",
+      "art.52 co.1b - Partecipazione GC e CC con funzioni consultive; verbalizzazione",
+      "art.52 co.1c - Rogito contratti; autenticazione scritture private",
+      "art.52 co.2 - Sovrintende e coordina FF Dirigenziali"
+    ]
+  },
+
+  "indice_fase0ter": {
+    "contabilita": ["art.74", "art.75", "art.76", "art.77", "art.78", "art.80", "art.82"],
+    "contratti": ["art.81"],
+    "personale": ["art.29 co.3f", "art.29 co.3k", "art.29 co.3l", "art.29 co.3m", "art.55", "art.56"],
+    "servizi_pubblici": ["art.36", "art.37", "art.38", "art.39", "art.40"],
+    "patrimonio": ["art.29 co.3a", "art.29 co.3b", "art.29 co.3d", "art.17 co.7n"],
+    "tributi": ["art.17 co.7f", "art.74", "art.83"],
+    "organizzazione": ["art.49", "art.50", "art.51", "art.52", "art.53", "art.55"],
+    "trasparenza": ["art.71", "art.86"],
+    "contributi_benefici": ["art.79"],
+    "forme_associative": ["art.45", "art.46", "art.47", "art.48"]
+  },
+
+  "indice_fip_ind": {
+    "atti_indirizzo": [
+      "Delibere CC ex art.17 co.7 (atti fondamentali)",
+      "Linee programmatiche mandato (art.27)",
+      "Indirizzi GC ex art.29 co.1"
+    ],
+    "atti_gestionali": [
+      "Determinazioni dirigenziali FF (art.77 co.4)",
+      "Ordinanze FF (art.55 co.8)",
+      "Stipulazione contratti FF (art.55 co.5)",
+      "Certificazioni e autorizzazioni FF (art.55 co.7)"
+    ],
+    "zone_grigie": [
+      "art.29 co.3e - Contributi a terzi (GC delibera, FF esegue)",
+      "art.29 co.3g - Incarichi legali (GC delibera, Sindaco/FF esegue)",
+      "art.29 co.3o - Progetti lavori pubblici (GC approva, FF gestisce)"
+    ]
+  },
+
+  "regolamenti_richiamati": [
+    "Regolamento del Consiglio Comunale",
+    "Regolamento di Contabilità",
+    "Regolamento di disciplina dei contratti",
+    "Regolamento sull'Ordinamento degli Uffici e dei Servizi",
+    "Regolamento di Partecipazione popolare",
+    "Regolamento di accesso ai contributi economici",
+    "Regolamento di accesso agli atti amministrativi",
+    "Regolamento dei controlli interni (Del.CC n.19/2015)",
+    "Regolamento di disciplina del referendum popolare"
+  ],
+
+  "note_operative": [
+    "Il Comune di Cerda NON ha qualifica dirigenziale in organico (art.55 co.1)",
+    "Le funzioni dirigenziali sono attribuite come FF con provvedimento motivato Sindaco",
+    "Il Direttore Generale è soppresso (art.54)",
+    "Il Difensore Civico è soppresso (art.73)",
+    "Gli atti di gestione assumono SEMPRE la forma di determinazioni dirigenziali (art.77 co.4)",
+    "Albo Pretorio online assolve obblighi di pubblicità legale (art.86 co.2)"
+  ]
+}
